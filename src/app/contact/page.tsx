@@ -5,7 +5,7 @@ export default function contact(){
         <div>
             <Header/>
             <div>
-                <h1 className="heading">Contact</h1>
+                <h1 className="heading3">Contact</h1>
                 <p className="contactPara">Feel free to contact me using the following details:</p>
                 <ul className="contactList">
                     <li>Email: hania.fareed@gmail.com</li>

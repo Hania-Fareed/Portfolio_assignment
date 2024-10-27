@@ -2,10 +2,10 @@ import Header from "../components/header";
 
  export default function About(){
     return(
-        <div>
+        <div className="aboutResponsive">
             <Header />
             <div className="aboutContainer">
-              <h1 className="heading"><span className="theme text-pop-up-top ">My Self</span></h1>
+              <h1 className="heading"><span className="theme text-pop-up-top "><span className="my">My</span> Self</span></h1>
               <p className="aboutPara">I am a hard-working and driven 
                 individual who <br/>isn't afraid to face a challenge.
                  I'm passionate <br/>about my work and I know how to get the job done. <br/>
@@ -13,7 +13,8 @@ import Header from "../components/header";
                     <div className="about-pictureContainer">
                         <img src="./about.PNG"/>
                     </div>
-                    <h2 className="heading"><span className="theme2 text-pop-up-top ">Hobbies</span></h2>
+                    <div>
+                    <h2 className="hobbiHeading"><span className="theme2 text-pop-up-top ">Hobbies</span></h2>
                     <div className="hobbiesList">
                         <li>Reading</li>
                         <li>Cooking</li>
@@ -22,6 +23,7 @@ import Header from "../components/header";
                     </div>
                     <div className="pictureContainer">
                         <img src="./hobbi.PNG"/>
+                    </div>
                     </div>
             </div>
         </div>

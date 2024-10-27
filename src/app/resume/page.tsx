@@ -2,10 +2,11 @@ import Header from "../components/header";
 
 export default function resume(){
     return(
-        <div className="cntainer">
+        <div className="container">
             <Header />
-            <div className="heading">
-            <span className="color">Static Interactive Resume</span></div>
+            <div className="heading1">
+            <span className="color">Static Interactive Resume</span>
+            </div>
         <div className="profile">
             <div className="profile_container">
                 <div className="profile_profileImg">
@@ -18,8 +19,8 @@ export default function resume(){
                     </h1>
                     <p className="profile_title">Software Developer</p>
                     <p className="description">
-                        I am a student at Governor House and learning Artificial Intelligence Web 3.0 and Metaverse.I have a strong foundation in programming languages such as HTML, Java, and C++.
-                        I am an enthusiastic, self-motivated, reliable, responsible and hard working person. I am a mature team worker and adaptable to all challenging situations.
+                        I am a student at Governor House and learning Artificial Intelligence Web 3.0 and Metaverse.<br/>I have a strong foundation in programming languages such as HTML, Java, and C++.<br/>
+                        I am an enthusiastic, self-motivated, reliable, responsible and hard working person.<br/> I am a mature team worker and adaptable to all challenging situations.
                     </p>
                     <a className="downloadBtn" href="./cv.pdf" download="Resume.pdf">Download Btn</a>
                 </div>
