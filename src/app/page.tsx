@@ -1,4 +1,5 @@
 "use client";
+import Image from 'next/image';
 import Header from "./components/header"; 
 import Link from "next/link";
 import { TypeAnimation } from 'react-type-animation';
@@ -10,9 +11,14 @@ export default function Home() {
       <div>
         <div className="mainHeading">My Portfolio</div>
         <div className="profile-pic rotate-center ">
-           <img src="https://sharedp.com/wp-content/uploads/2024/06/cute-cartoon-girl-images-960x1024.jpg" alt="Profile Pic"/>
+        <Image 
+           src="/profile_pic.webp" 
+           alt="Profile Pic" 
+           width={400} 
+           height={400} 
+        />
          </div>
-        <h2 className="heading2"><span className="myName">Hello, I'm</span> <br/> {" "}
+        <h2 className="heading-2"><span className="myName">Hello, I&apos;m</span> <br/> {" "}
         <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
@@ -37,8 +43,8 @@ export default function Home() {
       </div>
          <div className="resumeContainer">
           <h1>Click Here 👇🏻 </h1>
-           <Link href={"resume"}>
-           <li className="resume">RESUME</li>
+           <Link href={"/resume"}>
+           <button className="resume">RESUME</button>
            </Link>
          </div>
     </div>

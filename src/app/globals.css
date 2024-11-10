@@ -11,9 +11,9 @@
   height: 1000px;
   background: black;
 }
-.heading2{
+.heading-2{
     color: white;
-    font-size: xxx-large;
+    font-size: 2rem;
     font-weight: 1000;
     margin-left: 200PX;
     margin-top: -350px;
@@ -82,7 +82,7 @@ h1{
     width: 300px;
     height: 300px;
   }
-  .heading2{
+  .heading-2{
     margin-left: 00PX;
     margin-top: 99px;
     font-size: 40px;
@@ -184,7 +184,7 @@ h1{
   width: 400px;
   height: 300px;
   margin-left: 100px;
-  margin-top: -650px;
+  margin-top: -550px;
 }
 .aboutPara{
   font-size: 25px;
@@ -258,7 +258,7 @@ h1{
   margin-left: 100px;
   margin-top: 30px;
 }
-.heading3{
+.heading-3{
   color: var(--text-color);
   font-size: 40px;
   font-weight: 800;
@@ -274,7 +274,7 @@ h1{
   font-size: 23px;
   margin-left: 80px;
   }
-  .heading3{
+  .heading-3{
     margin-left: 250px;
   }
 }
@@ -475,7 +475,7 @@ a {
   display: flex;
   flex-direction: row;
   gap: 5rem;
-  margin-left: -350px;
+  margin-left: 150px;
 }
 .group-3 > div {
   flex: 1;
@@ -604,7 +604,7 @@ hr {
   margin: 0 auto;
   margin-top: 5rem;
   margin-bottom: 1rem;
-  margin-left: -300px;
+  margin-left: 10px;
   border: none;
   border-top: 2px solid rgba(128, 128, 128, 0.229);
 }
@@ -628,4 +628,3 @@ hr {
   margin-left: -500px;
   margin-top: 55px;
 }
-

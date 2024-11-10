@@ -1,11 +1,11 @@
 import Header from "../components/header"
 
-export default function contact(){
+export default function Contact() {
     return(
         <div>
             <Header/>
             <div>
-                <h1 className="heading3">Contact</h1>
+                <h1 className="heading-3">Contact</h1>
                 <p className="contactPara">Feel free to contact me using the following details:</p>
                 <ul className="contactList">
                     <li>Email: hania.fareed@gmail.com</li>

@@ -1,31 +1,39 @@
 import Header from "../components/header"; 
+import Image from 'next/image';
 
- export default function About(){
-    return(
+export default function About() {
+    return (
         <div className="aboutResponsive">
             <Header />
             <div className="aboutContainer">
-              <h1 className="heading"><span className="theme text-pop-up-top "><span className="my">My</span> Self</span></h1>
-              <p className="aboutPara">I am a hard-working and driven 
-                individual who <br/>isn't afraid to face a challenge.
-                 I'm passionate <br/>about my work and I know how to get the job done. <br/>
-                 I would describe myself as an open and honest person<br/> who doesn't believe in misleading other people and tries<br/> to be fair in everything I do.</p>
-                    <div className="about-pictureContainer">
-                        <img src="./about.PNG"/>
-                    </div>
-                    <div>
-                    <h2 className="hobbiHeading"><span className="theme2 text-pop-up-top ">Hobbies</span></h2>
-                    <div className="hobbiesList">
+                <h1 className="heading">
+                    <span className="theme text-pop-up-top">
+                        <span className="my">My</span> Self
+                    </span>
+                </h1>
+                <p className="aboutPara">
+                    I am a hard-working and driven individual who isn&apos;t afraid to face a challenge.
+                    I&apos;m passionate about my work and I know how to get the job done.
+                    I would describe myself as an open and honest person who doesn&apos;t believe in misleading other people and tries to be fair in everything I do.
+                </p>
+                <div className="about-pictureContainer">
+                    <Image src="/about.PNG" alt="About Image" width={500} height={500} />
+                </div>
+                <div>
+                    <h2 className="hobbiHeading">
+                        <span className="theme2 text-pop-up-top">Hobbies</span>
+                    </h2>
+                    <ul className="hobbiesList">
                         <li>Reading</li>
                         <li>Cooking</li>
                         <li>Painting</li>
                         <li>Gardening</li>
-                    </div>
+                    </ul>
                     <div className="pictureContainer">
-                        <img src="./hobbi.PNG"/>
+                        <Image src="/hobbi.PNG" alt="Hobbies Image" width={500} height={500} />
                     </div>
-                    </div>
+                </div>
             </div>
         </div>
-    )  
- }
+    );
+}
