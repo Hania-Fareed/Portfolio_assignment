@@ -3,8 +3,8 @@ import Image from 'next/image';
 
 export default function About() {
     return (
-        <div className="aboutResponsive">
-            <Header />
+        <div>
+           <div className="aboutResponsive"><Header /></div> 
             <div className="aboutContainer">
                 <h1 className="heading">
                     <span className="theme text-pop-up-top">
@@ -29,7 +29,7 @@ export default function About() {
                         <li>Painting</li>
                         <li>Gardening</li>
                     </ul>
-                    <div className="pictureContainer">
+                    <div className="hobbipictureContainer">
                         <Image src="/hobbi.PNG" alt="Hobbies Image" width={500} height={500} />
                     </div>
                 </div>

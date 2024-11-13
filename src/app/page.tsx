@@ -7,7 +7,7 @@ import { TypeAnimation } from 'react-type-animation';
 export default function Home() {
   return (
     <div className="mainContainer  color-change-2x">
-     <div className="homeHeader"> <Header/> </div>
+     <div className="aboutResponsive"> <Header/> </div>
       <div>
         <div className="mainHeading">My Portfolio</div>
         <div className="profile-pic rotate-center ">

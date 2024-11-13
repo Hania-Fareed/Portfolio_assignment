@@ -3,7 +3,7 @@ import Header from "../components/header"
 export default function Contact() {
     return(
         <div>
-            <Header/>
+            <div className="aboutResponsive"><Header /></div>
             <div>
                 <h1 className="heading-3">Contact</h1>
                 <p className="contactPara">Feel free to contact me using the following details:</p>

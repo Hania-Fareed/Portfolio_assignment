@@ -124,8 +124,8 @@ h1{
 /*about page*/
 
 .aboutContainer{
-  width: 1790px;
-  height: 1600px;
+  width: 1630px;
+  height: 1500px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -154,8 +154,8 @@ h1{
 
 .aboutPara{
   color: black;
-  font-size: 30px;
-  margin-left: 900px;
+  font-size: 25px;
+  margin-left: 850px;
    margin-top: 20px;
 }
 .heading{
@@ -191,7 +191,7 @@ h1{
   margin-left: 60px;
   margin-top: 350px;
 }
-.pictureContainer{
+.hobbipictureContainer{
   width: 900px;
   height: 900px;
   margin-left: 700px;
@@ -211,8 +211,8 @@ h1{
   margin-left: 100px;
   margin-top: 20px;
 }
-.pictureContainer{
-  width: 1000px;
+.hobbipictureContainer{
+  width: 900px;
   height: 1000px;
   margin-left: 700px;
   margin-top: -300px;
@@ -236,7 +236,7 @@ h1{
     margin-left: 90px;
     margin-top: 450px;
   }
-  .pictureContainer{
+  .hobbipictureContainer{
   width: 600px;
   margin-left: 30px;
   margin-top: -500px;
@@ -628,3 +628,181 @@ hr {
   margin-left: -500px;
   margin-top: 55px;
 }
+@media only screen and (max-width: 375px) {
+  .mainContainer{
+  margin: 0;
+  height: 1200px;
+  }
+  .mainHeading{
+    margin-left: 50px;
+    margin-top: 40px;
+    font-size: 30px;
+  }
+  .profile-pic{
+    margin-left: 0px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+  }
+  .heading-2{
+    margin-left: 00PX;
+    margin-top: 85px;
+    font-size: 30px;
+  }
+  .descriptionHome{
+    font-size: 15px;
+    margin-left: -20px;
+    margin-top: 40px;
+  }
+  .resumeContainer{
+    font-size: x-large;
+    font-weight: 700;
+    margin-left: 90px;
+    margin-top: 50px;
+  }
+  .homeHeader{
+    margin-left: 250px;
+    font-size: 15px;
+  } 
+} 
+@media only screen and (max-width: 375px) {
+  .hobbiHeading{
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 1px;
+    margin-top: 200px;
+  }
+  .hobbiesList{
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 200px;
+  }
+  .hobbipictureContainer{
+  width: 300px;
+  margin-left: 20px;
+  margin-top: -270px;
+  }
+  .aboutResponsive{
+    margin-left: 320px;
+    margin-top: 10px;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .aboutContainer{
+   width: 350px;
+   height: 2500px;
+   margin-left: 14px;
+  }
+  .my{
+   margin-left: -860px;
+   margin-top: 99px;
+  }
+  .heading{
+   margin-left:00px;
+   margin-top: 50px;
+  }
+  .about-pictureContainer{
+   width: 300px;
+   height: 200px;
+   margin-left: 25px;
+   margin-top: -400px;
+ }
+ .aboutPara{
+   font-size: 15px;
+   margin-left: 20px;
+   margin-top: 250px;
+ }
+ }
+ @media only screen and (max-width: 375px) {
+  .contactPara{
+  font-size: 20px;
+  margin-left: 40px;
+  }
+  .contactList{
+  font-size: 20px;
+  margin-left: 40px;
+  }
+  .heading-3{
+    margin-left: 70px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .heading1{
+    font-size: 25px;
+    margin-left: 430px;
+    margin-top: -80px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  /* .container{
+    width: auto;
+  } */
+  .profile_profileImg{
+    max-width: 200px;
+    margin-left: -20px;
+  }
+  .profile_name_firstName{
+    margin-left: -25px;
+  }
+  .profile_name_lastName{
+    margin-left: -25px;
+  }
+  .profile_title{
+    margin-left: -20px;
+  }
+  .description{
+    margin-left: -31px;
+    margin-top: 10px;
+    font-size: 13px;
+  }
+  .title{
+    margin-left: -25px;
+  }
+  .downloadBtn{
+    margin-left: -20px;
+  }
+  .group-3{
+    margin-left: 10px;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 1080px) {
+  .mainContainer{
+  margin: 0;
+  height: 1100px;
+  }
+  .mainHeading{
+    margin-left: 250px;
+    margin-top: 90px;
+    font-size: 50px;
+  }
+  .profile-pic{
+    margin-left: auto;
+    margin-top: 70px;
+    width: 250px;
+    height: 250px;
+  }
+  .heading-2{
+    margin-left: 00PX;
+    margin-top: -190px;
+    font-size: 45px;
+  }
+  .descriptionHome{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+  .resumeContainer{
+    font-size: x-large;
+    font-weight: 700;
+    margin-left: 200px;
+    margin-top: 50px;
+  }
+  .aboutResponsive{
+    margin-left: 450px;
+    font-size: 25px;
+  } 
+}
+
